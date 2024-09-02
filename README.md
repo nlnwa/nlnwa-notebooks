@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nlnwa/nlnwa-notebooks/HEAD?labpath=https%3A%2F%2Fgithub.com%2Fnlnwa%2Fnlnwa-notebooks%2Fblob%2Fmain%2Fnotebooks%2Fnettavis-tekstanalyse-v0-2.ipynb)
+
 # Notebooks to analyse SolrWayback exports
 This repository contains experimental notebooks for insight and analysis of derivatives from Solrwayback.
 
