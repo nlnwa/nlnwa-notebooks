@@ -1,10 +1,11 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nlnwa/nlnwa-notebooks/main?labpath=%2Fnotebooks%2Fcorpus%2Fnettavis-tekstanalyse.ipynb)
+
 # Notebooks to analyse content from the Norwegian Web Archive
 
 ## Corpus notebooks
 Notebooks for the Web News Corpus allow you to build corpus (a collection of texts), visualise basic metadata for insight purposes, get concordances (snippets with words around a keyword), get collocates and calculate relative frequency of the collocated words.
 
-Open the notebook for corpus analysis in Binder:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nlnwa/nlnwa-notebooks/main?labpath=%2Fnotebooks%2Fcorpus%2Fnettavis-tekstanalyse.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nlnwa/nlnwa-notebooks/main?labpath=%2Fnotebooks%2Fcorpus%2Fnettavis-tekstanalyse.ipynb) <<< Open the notebook in Binder
 
 ## SolrWayback notebooks
 Notebooks for SolrWayback contains experimental code for insight and analysis of derivatives and WARC export from Solrwayback.
