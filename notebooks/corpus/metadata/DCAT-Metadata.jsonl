@@ -1,0 +1,27 @@
+{
+    "@context": "http://www.w3.org/ns/dcat#",
+    "@type": "dcat:Dataset",
+    "dcat:title": "Web News Colelction",
+    "dcat:description": "A collection of 1.5 million web news articles from the Norwegian Web Archive, harvested between 2019-22. Accessible via API.",
+    "dcat:keyword": ["Norwegian Web Archive", "News", "API"],
+    "dcat:theme": "Media",
+    "dcat:publisher": {
+      "@type": "org:Organization",
+      "name": "National Library of Norway",
+      "url": "https://www.nb.no"
+    },
+    "dcat:contactPoint": {
+      "@type": "vcard:Contact",
+      "fn": "National Library of Norway Contact",
+      "hasEmail": "mailto:contact@nb.no"
+    },
+    "dcat:distribution": {
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": "https://api.nb.no/dhlab/",
+      "dcat:format": "API",
+      "dcat:license": ""
+    },
+    "dcat:issued": "2024-09-02",
+    "dcat:modified": "2024-11-03"
+  }
+  

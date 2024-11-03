@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description rdf:about="https://api.nb.no/dhlab/">
+        <dc:title>Web News Collection</dc:title>
+        <dc:creator>National Library of Norway</dc:creator>
+        <dc:date>2024</dc:date>
+        <dc:type>Dataset</dc:type>
+        <dc:description>A collection of 1.5 million web news articles from the Norwegian Web Archive, harvested between 2019 and 2022.</dc:description>
+        <dc:publisher>National Library of Norway</dc:publisher>
+        <dc:format>SQLite / JSON via API</dc:format>
+        <dc:identifier>http://api.nb.no/dhlab/</dc:identifier>
+    </rdf:Description>
+</rdf:RDF>
