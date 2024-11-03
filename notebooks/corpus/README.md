@@ -1,12 +1,8 @@
 # Web News Collection
 
-![Word galaxy from dhlab, illustrating corpus of text](https://www.nb.no/en/collection/web-archive/research/web-news-corpus/)
-
 In collaboration with [DH-lab](https://www.nb.no/en/collection/web-archive/research/web-news-corpus/), the Norwegian Web Archive has created a collection of texts from web news publications from 2019-22. These texts are available for computational analysis through DH-lab’s API.
 
 The objective is to allow scholars, students, and others to make their own corpora of web news texts, facilitating digital text analysis of web news.
-
-We are working to develop notebooks and user-friendly web apps to interact with the data. For now, you can find examples of use in [nettavis-tekstanalyse.ipynb](https://github.com).
 
 Below, you will find some basic information and metadata about the Web News Collection. Please contact us at [nettarkivet@nb.no](mailto:nettarkivet@nb.no) if you have any questions!
 
