@@ -10,17 +10,17 @@ Below, you will find some basic information and metadata about the Web News Coll
 
 A corpus is, simply put, a collection of texts. In this case, it consists of texts from web news sources.
 
-## How big is the Web News Corpus?
+## How big is the Web News Collection?
 
-The first version of the web news corpus contains:
+The first version of the web news collection contains:
 
 - 1,572,655 texts
 - 784,171,966 words
 - 268 publication titles
 
-## Which languages are in the corpus?
+## Which languages are in the collection?
 
-The corpus includes texts in various languages. The most frequent ones are:
+The collection includes texts in various languages. The most frequent ones are:
 
 - **Norwegian Bokmål**: 1,437,768 texts
 - **Norwegian Nynorsk**: 111,892 texts
@@ -29,9 +29,9 @@ The corpus includes texts in various languages. The most frequent ones are:
 - **Southern Sami**: 101 texts
 - **Lule Sami**: 78 texts
 
-## Which publication titles are in the corpus?
+## Which publication titles are in the collection?
 
-In total, the corpus includes texts from 268 publications with a responsible editor. The most frequent titles are:
+In total, the collection includes texts from 268 publications with a responsible editor. The most frequent titles are:
 
 - **NRK**: 130,162
 - **VG**: 66,800
@@ -49,7 +49,7 @@ In total, the corpus includes texts from 268 publications with a responsible edi
 - **E24**: 24,930
 - **Nettavisen**: 23,670
 
-## How can I work with the corpus?
+## How can I work with the collection?
 
 To work with the corpus, you can use [dhlab for Python](https://nationallibraryofnorway.github.io).
 
