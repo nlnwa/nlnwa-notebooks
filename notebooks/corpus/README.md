@@ -6,9 +6,6 @@ The objective is to allow scholars, students, and others to make their own corpo
 
 Below, you will find some basic information and metadata about the Web News Collection. Please contact us at [nettarkivet@nb.no](mailto:nettarkivet@nb.no) if you have any questions!
 
-## What is a corpus?
-
-A corpus is, simply put, a collection of texts. In this case, it consists of texts from web news sources.
 
 ## How big is the Web News Collection?
 
