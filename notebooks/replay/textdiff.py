@@ -132,7 +132,7 @@ def _(mo):
 
 @app.cell
 def _(mo, versjoner):
-    mo.stop(versjoner.height < 2, mo.md("_Trenger minst to versjoner for å sammenligne._"))
+    mo.stop(versjoner.height < 2, mo.md("_Velg to versjoner for å sammenligne._"))
     _ts = versjoner["Tidsstempel"].to_list()
     ts_venstre = mo.ui.dropdown(_ts, value=_ts[0], label="Venstre", searchable=True)
     ts_hoyre = mo.ui.dropdown(_ts, value=_ts[-1], label="Høyre", searchable=True)
@@ -171,8 +171,8 @@ def _(
         return f"{BASE_URL}/{ts}/{original_url(ts)}"
 
     def hent_tekst(ts: str) -> str:
-        # Modifikatoren `mp_` etter timestamp returnerer html-innhold uten avspillings-ramma, slik at man unngår at NBs tjeneste blir del av tekstdifferansen
-        resp = requests.get(f"{BASE_URL}/{ts}mp_/{original_url(ts)}", timeout=30)
+        # Modifikatoren `id_` etter timestamp returnerer html-innhold uten avspillings-ramma, slik at man unngår at NBs tjeneste blir del av tekstdifferansen
+        resp = requests.get(f"{BASE_URL}/{ts}id_/{original_url(ts)}", timeout=30)
         soup = BeautifulSoup(resp.text, "lxml")
         for tag in soup(["script", "style", "noscript", "template"]):
             tag.decompose()
